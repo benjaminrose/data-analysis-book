@@ -1,0 +1,37 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: book/intro
+# options:  # The options key will be applied to all chapters, but not sub-sections
+#   numbered: True
+parts:
+  - caption: Frontmatter
+    chapters:
+    # - file: book/frontmatter/preface
+    - file: book/frontmatter/2025outline
+  
+  - caption: "Unit 1: Basic Programing"
+    numbers: True
+    chapters:
+    - file: book/unit1/python
+    - file: book/unit1/linux
+    - file: book/unit1/stats
+    # No stats.md?
+
+  # - caption: "Unit 2: Basic Statistic"
+  #   numbers: True
+  #   chapters:
+  #   - file: notebooks
+
+  # - caption: "Unit 3: Model Fitting"
+  #   numbers: True
+  #   chapters:
+    # - file: markdown-notebooks
+    
+  # - caption: "Unit 4: Practical Examples"
+  #   numbers: True
+  #   chapters:
+  #   - file: markdown
+  #   - file: notebooks
+  #   - file: markdown-notebooks
