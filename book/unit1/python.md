@@ -1,48 +1,51 @@
 # Python
 
-## Installation
+I am going to summarize a few important ideas but this will not be an comprehensive introduction to Python. If you want that, please look to the guides at [Real Python](https://realpython.com/learning-paths/python-basics/) or the textbook [Think Python](https://greenteapress.com/wp/think-python-2e/) by Downey.
+
+## Basics
+
+### Installation
 
 You can use this notebook or 
 
-## Hello World
+### Hello World
 
 ```python
 print("Hello, World!")
 ```
 
-## Comments
+### Comments
 
-## Types
+### Types
 
-
-Text Type:	str
-Numeric Types:	int, float, complex
-Sequence Types:	list, tuple, range
-Mapping Type:	dict
-Set Types:	set, frozenset
-Boolean Type:	bool
-Binary Types:	bytes, bytearray, memoryview
-None Type:	NoneType
+* Text Type:	str
+* Numeric Types:	int, float, complex
+* Sequence Types:	list, tuple, range
+* Mapping Type:	dict
+* Set Types:	set, frozenset
+* Boolean Type:	bool
+* Binary Types:	bytes, bytearray, memoryview
+* None Type:	NoneType
 
 print(type(var))
 
-## if ... else
+### if ... else
 
-## for loops
+### for loops
 
-## functions
+### functions
 
-# More Advanced Python
+## More Advanced Python
 
-## String formating
+### String formating
 
-## Modules
+### Modules
 
 ```python
 import this
 ```
 
-## Scope
+### Scope
 
 ```python
 x = 300
@@ -66,5 +69,6 @@ myfunc()
 print(x)
 ```
 
-## Reading files
+### Reading files
 
+## Suggested Reading

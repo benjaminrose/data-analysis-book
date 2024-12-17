@@ -3,26 +3,34 @@
 
 format: jb-book
 root: book/intro
-# options:  # The options key will be applied to all chapters, but not sub-sections
-#   numbered: True
 parts:
   - caption: Frontmatter
     chapters:
-    # - file: book/frontmatter/preface
     - file: book/frontmatter/2025outline
   
   - caption: "Unit 1: Basic Programing"
-    numbers: True
+    numbered: True
     chapters:
     - file: book/unit1/python
+    - file: book/unit1/sci_python
     - file: book/unit1/linux
-    - file: book/unit1/stats
-    # No stats.md?
+  
+  - cpation: "Homework 1"
+    numbered: False
+    chapters:
+    - file: book/unit1/hw1
 
-  # - caption: "Unit 2: Basic Statistic"
-  #   numbers: True
-  #   chapters:
+  - caption: "Unit 2: Basic Statistic"
+    numbered: True
+    chapters:
+    - file: book/unit2/stats
   #   - file: notebooks
+  
+  - cpation: "Homework 2"
+    numbered: False
+    chapters:
+    - file: book/unit2/hw2
+    - file: book/unit2/hw3
 
   # - caption: "Unit 3: Model Fitting"
   #   numbers: True
