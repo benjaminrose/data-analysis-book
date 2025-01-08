@@ -22,6 +22,9 @@
 | Week 14  | 2pt correlation functions | Wall 10, ? |
 <!-- | Week 8   | Generalized linear regression & causal inference using regression    | Gelman 6, 7, 9, 10, A | -->
 
+https://www.astroml.org/astroML-notebooks/
+https://idl.uw.edu/visualization-curriculum/intro.html
+
 ## References
 
 * Downey ["Think Python" 2nd edition](https://greenteapress.com/wp/think-python-2e/)

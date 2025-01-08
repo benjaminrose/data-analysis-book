@@ -6,6 +6,7 @@ author: Benjamin Rose
 email: Ben_Rose@baylor.edu
 copyright: 2024-2025
 logo: book/data_analysis.001.png
+exclude_patters: [README.md, LICENSE.txt, makefile]
 
 
 # Force re-execution of notebooks on each build.
@@ -33,7 +34,6 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/benjaminrose/data-analysis-book  # Online location of your book
-  # path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: main  # Which branch of the repository should be used when creating links (optional)
-
+  url: https://github.com/benjaminrose/data-analysis-book
+  path_to_book: book
+  branch: main
