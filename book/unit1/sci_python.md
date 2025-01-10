@@ -8,6 +8,8 @@ I am going to summarize a few important ideas but this will not be an comprehens
 
 ## pandas
 
+data["Species"].value_counts() 
+
 ## tidydata
 
 ## Suggested Reading
