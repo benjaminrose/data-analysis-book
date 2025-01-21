@@ -6,7 +6,7 @@ I am going to summarize a few important ideas but this will not be an comprehens
 
 ### Installation
 
-You can use this notebook or 
+I recommend following the instructions at https://docs.anaconda.com/miniconda/install/ to get miniconda. Alternatively, you can use the full anaconda distribution, manage your own environments and dependancies with pip/pyenv, or you can use parts of this website via binder. 
 
 ### Hello World
 
@@ -14,7 +14,31 @@ You can use this notebook or
 print("Hello, World!")
 ```
 
+### Variable assignment
+
+```python
+x = 1
+y = 4
+z = x
+```
+
+```python
+print(x, z)
+z = 5
+print(x, z)
+```
+
 ### Comments
+
+Comments are lines that start with `#`. There are no block comments like there are in C. However, there are multiline strings that look like block comments. 
+
+If you make a python string, but do not assign it to a variable, then it acts like similar to a block comment.
+
+```python
+"""This is a multiline string!
+It is really helpful for documenting functions.
+"""
+```
 
 ### Types
 
@@ -27,11 +51,58 @@ print("Hello, World!")
 * Binary Types:	bytes, bytearray, memoryview
 * None Type:	NoneType
 
+```python
 print(type(var))
+```
+
+However, Python is "duck" typed: if it walks like a duck and talks like a duck, it is a duck. This loose typing can confuse some people, but you will find out that it can be really helpful for types to build off each other and fall back to a more basic type via duck typing rather than a lower level of code needing to know about all extensions to lists. 
 
 ### if ... else
 
+```python
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+```
+
+and, or, not, is
+
+pass
+
 ### for loops
+
+Python has a for loop and a while loop, but typically we use for-in loops. The syntax is as follows:
+
+```python
+for item in list:
+  print(item)
+```
+
+```python
+for i in range(5):
+  print(i)
+```
+
+break
+continue
+
+You can even use Python to write C. Please don't.
+
+```python
+a = ['Mary', 'had', 'a', 'little', 'lamb']
+for i in range(len(a)):
+    print(i, a[i])
+```
+In this case, we used the keyword `len` to get the length of an object. Check what types work with `len`?
+
+(If you are using a for loop---or its variants---in python, you are likely doing something wrong.)
+
+For more advanced uses, you may want to use the [match](https://docs.python.org/3/tutorial/controlflow.html#match-statements) keyword.
 
 ### functions
 
@@ -69,6 +140,15 @@ myfunc()
 print(x)
 ```
 
+### try except finally
+
+We will occationally use `try` blocks to deal with errors. You can read up on them in detail at https://www.w3schools.com/python/python_try_except.asp. 
+
 ### Reading files
 
 ## Suggested Reading
+
+* [Think Python](https://greenteapress.com/wp/think-python-2e/)
+* [Real Python](https://realpython.com/learning-paths/python-basics/) 
+* https://www.w3schools.com/python/default.asp
+
