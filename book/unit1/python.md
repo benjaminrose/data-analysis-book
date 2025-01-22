@@ -55,7 +55,9 @@ It is really helpful for documenting functions.
 print(type(var))
 ```
 
+```{info}
 However, Python is "duck" typed: if it walks like a duck and talks like a duck, it is a duck. This loose typing can confuse some people, but you will find out that it can be really helpful for types to build off each other and fall back to a more basic type via duck typing rather than a lower level of code needing to know about all extensions to lists. 
+```
 
 ### if ... else
 
@@ -70,9 +72,12 @@ else:
   print("a is greater than b")
 ```
 
-and, or, not, is
 
-pass
+#### Keywords
+
+There are useful keywords like the boolean operators `and`, `or`, and `not`. Additionally it is best practice to use the the comparison operator `is` rather than checking for equality. This is especially true for to check if a variable is `None`. Finally, the keyword `pass` is sometimes used.
+
+For more, check out [w3schools](https://www.w3schools.com/python/python_ref_keywords.asp) or [Read Python](https://realpython.com/python-keywords/).
 
 ### for loops
 
@@ -88,8 +93,7 @@ for i in range(5):
   print(i)
 ```
 
-break
-continue
+For loops, check out the keywords `break` and `continue`.
 
 You can even use Python to write C. Please don't.
 
@@ -98,17 +102,39 @@ a = ['Mary', 'had', 'a', 'little', 'lamb']
 for i in range(len(a)):
     print(i, a[i])
 ```
-In this case, we used the keyword `len` to get the length of an object. Check what types work with `len`?
+In this case, we used the built in function `len` to get the length of an object. Check what types work with `len`?
 
-(If you are using a for loop---or its variants---in python, you are likely doing something wrong.)
+```{important}
+If you are using a for loop---or its variants---in python, you are likely doing something wrong.
+```
 
 For more advanced uses, you may want to use the [match](https://docs.python.org/3/tutorial/controlflow.html#match-statements) keyword.
 
-### functions
+### Functions & Classes
+
+If there is a bit of code you want to reuse, like calculating the a chi-square you want to minimize, the standard practice is to put it into a function. 
+
+```{important}
+If you are copying and pasting while writing your code, you are likely doing something wrong and you should probabliy make a function or a class.
+```
+
+Functions are defined with the `def` keyword as seen here:
+
+```python
+def function_name(var1, var2):
+  return var1*var2
+```
+
+As you advance in your Python skills, you will learn how to take this simple function and adorn it with additional useful features such as docstrings, keyword only arguments, and decorators. We will address each of these as needed later in the course.
+
+Python is an object oriented language, but we will mostly use its functional/scripting language features. So know that there are `class`es but we will not use them much.
+
 
 ## More Advanced Python
 
 ### String formating
+
+If you have a variable that you want to print with a specific formatting, like a float that you want to report with the correct significant digits, you will use string formatting and f-strings. Check out [w3school's](https://www.w3schools.com/python/python_string_formatting.asp) and [real python's](https://realpython.com/python-string-formatting/) tutorials on this topic.
 
 ### Modules
 
@@ -142,7 +168,7 @@ print(x)
 
 ### try except finally
 
-We will occationally use `try` blocks to deal with errors. You can read up on them in detail at https://www.w3schools.com/python/python_try_except.asp. 
+We will occasionally use `try` blocks to deal with errors. You can read up on them in detail at [w3school](https://www.w3schools.com/python/python_try_except.asp).
 
 ### Reading files
 
@@ -150,5 +176,10 @@ We will occationally use `try` blocks to deal with errors. You can read up on th
 
 * [Think Python](https://greenteapress.com/wp/think-python-2e/)
 * [Real Python](https://realpython.com/learning-paths/python-basics/) 
+* https://docs.python.org/3/tutorial/controlflow.html#match-statements
 * https://www.w3schools.com/python/default.asp
-
+* https://www.w3schools.com/python/python_try_except.asp
+* https://www.w3schools.com/python/python_ref_keywords.asp
+* https://www.w3schools.com/python/python_string_formatting.asp
+* https://realpython.com/python-keywords/
+* https://realpython.com/python-string-formatting/
