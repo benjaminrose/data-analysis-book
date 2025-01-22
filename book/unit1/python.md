@@ -55,7 +55,7 @@ It is really helpful for documenting functions.
 print(type(var))
 ```
 
-```{info}
+```{note}
 However, Python is "duck" typed: if it walks like a duck and talks like a duck, it is a duck. This loose typing can confuse some people, but you will find out that it can be really helpful for types to build off each other and fall back to a more basic type via duck typing rather than a lower level of code needing to know about all extensions to lists. 
 ```
 
