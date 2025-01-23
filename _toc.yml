@@ -13,8 +13,8 @@ parts:
     chapters:
     - file: book/unit1/python
     - file: book/unit1/stat_variables
-    - file: book/unit1/sci_python
     - file: book/unit1/linux
+    - file: book/unit1/sci_python
   
   - cpation: "Homework 1"
     numbered: False
