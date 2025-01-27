@@ -176,6 +176,7 @@ We will occasionally use `try` blocks to deal with errors. You can read up on th
 
 * [Think Python](https://greenteapress.com/wp/think-python-2e/)
 * [Real Python](https://realpython.com/learning-paths/python-basics/) 
+* * Vasiliev "Python For Data Science" chapters 1 & 2
 * https://docs.python.org/3/tutorial/controlflow.html#match-statements
 * https://www.w3schools.com/python/default.asp
 * https://www.w3schools.com/python/python_try_except.asp
