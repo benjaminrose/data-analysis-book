@@ -112,7 +112,7 @@ for i in range(len(a)):
 ```
 In this case, we used the built in function `len` to get the length of an object. Check what types work with `len`?
 
-```{info}
+```{note}
 If you are using a for loop---or its variants---in python, you are likely doing something wrong. It may be someone else's fault, but something is not right.
 ```
 

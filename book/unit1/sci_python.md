@@ -102,7 +102,7 @@ What if `a = np.array([1, 2, 3])` vs `a = [1, 2, 3]`? In NumPy this is called [b
 
 
 np.zeros, np.ones. 
-```{info}
+```{note}
 If you know the size of your final array, use np.zeros or np.empty then fill the array indexes with values. This is significantly faster than using np.append.
 ```
 
@@ -127,7 +127,7 @@ rng.standard_normal(size=(5,1))
 
 `.random` returns random floats in the half-open interval [0.0, 1.0).
 
-```{info}
+```{note}
 What if I need to get the same random number the next time I run my code? Use a seed when setting up your random generator `rng = np.random.default_rng(12345)`.
 ```
 
