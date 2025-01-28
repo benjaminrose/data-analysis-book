@@ -55,6 +55,14 @@ It is really helpful for documenting functions.
 print(type(var))
 ```
 
+```
+>>> x = [1,2,3]
+>>> z = x
+>>> z[1]=5
+>>> x
+[1, 5, 3]
+```
+
 ```{note}
 However, Python is "duck" typed: if it walks like a duck and talks like a duck, it is a duck. This loose typing can confuse some people, but you will find out that it can be really helpful for types to build off each other and fall back to a more basic type via duck typing rather than a lower level of code needing to know about all extensions to lists. 
 ```
@@ -104,8 +112,8 @@ for i in range(len(a)):
 ```
 In this case, we used the built in function `len` to get the length of an object. Check what types work with `len`?
 
-```{important}
-If you are using a for loop---or its variants---in python, you are likely doing something wrong.
+```{info}
+If you are using a for loop---or its variants---in python, you are likely doing something wrong. It may be someone else's fault, but something is not right.
 ```
 
 For more advanced uses, you may want to use the [match](https://docs.python.org/3/tutorial/controlflow.html#match-statements) keyword.
