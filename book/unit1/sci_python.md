@@ -1,4 +1,4 @@
-# Scientific Python (NumPy, SciPy, & Pandas)
+# Scientific Python (NumPy, SciPy, & pandas)
 
 Python has two large communities: web development and scientific computing. Each group has a few core packages that they add on top of base python. In this section, we will 
 
@@ -192,11 +192,11 @@ We will use three subsections of `scipy.stats`:
 * And it even has the functions we need for Hypothesis testing (week 4).
 
 
-## Pandas
+## pandas
 
-data["Species"].value_counts() 
+pandas is a package for working with tabular data. Above we asked if NumPy 2D arrays were (row, column) vs (column, row). For tabular data specifically, it should be assign the axes to observations and variables.
 
-
+pandas has a great ["10 minutes to pandas"](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html) tutorial. Read this tutorial.
 
 ## tidydata
 
@@ -212,3 +212,6 @@ data["Species"].value_counts()
 * https://www.w3schools.com/python/scipy/index.php
 * https://docs.scipy.org/doc/scipy/tutorial/optimize.html#local-minimization-of-multivariate-scalar-functions-minimize
 * https://docs.scipy.org/doc/scipy/tutorial/optimize.html#bounded-minimization-method-bounded
+* https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
+* https://www.w3schools.com/python/pandas/default.asp
+* https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb

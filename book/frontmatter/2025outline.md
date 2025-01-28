@@ -3,7 +3,8 @@
 | | Topics | Reference books |
 |:-|:------|:----------------|
 | | **Unit 1** |
-| Week 1   | Python (numpy, spicy, pandas, tidydata), Linux & Kodiak    | Downey, Vasiliev Ch 3 is limited, Healy 3.2| & ?? |
+| Week 1   | [Python](../unit1/python) & Linux  | Downey, Vasiliev Ch 3 is limited, Healy 3.2| & ?? |
+| Week 2   | [NumPy, SciPy, Pandas, & tidydata](../unit1/sci_python) | | 
 | Week 2   | Data visualization (matplotlib, R, gnuplot)   | Wilke 2, 5, 4 & 19, Healy Ch 1, 3, and maybe 4|
 | | **Unit 2** |
 | Week 3   | Error analysis: Statistical/Systematic  | Wall 3 (and maybe 2) & ??|
