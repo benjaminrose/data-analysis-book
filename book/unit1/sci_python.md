@@ -1,4 +1,4 @@
-# Scientific Python
+# Scientific Python (NumPy, SciPy, & Pandas)
 
 Python has two large communities: web development and scientific computing. Each group has a few core packages that they add on top of base python. In this section, we will 
 
