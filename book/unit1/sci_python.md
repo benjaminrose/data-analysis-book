@@ -192,6 +192,13 @@ We will use three subsections of `scipy.stats`:
 * And it even has the functions we need for Hypothesis testing (week 4).
 
 
+```
+from scipy.stats import lognormal, skew
+
+
+```
+
+
 ## pandas
 
 pandas is a package for working with tabular data. Above we asked if NumPy 2D arrays were (row, column) vs (column, row). For tabular data specifically, it should be assign the axes to observations and variables.
