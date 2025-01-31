@@ -205,9 +205,95 @@ pandas is a package for working with tabular data. Above we asked if NumPy 2D ar
 
 pandas has a great ["10 minutes to pandas"](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html) tutorial. Read this tutorial.
 
-## tidydata
+## Tidy Data
+
+Tidy data is a framework to structure data in a way that simplifies the analysis. The full details can be seen at https://tidyr.tidyverse.org/articles/tidy-data.html. 
+
+
+Most datasets are made up of rows and columns. Tidy data is a formalism of mapping meaning to a data set's structure. A data set is messy or tidy depending on how rows, columns and tables are matched up with observations, variables and types. In tidy data:
+
+* Each variable is a column; each column is a variable.
+* Each observation is a row; each row is an observation.
+* Each value is a cell; each cell is a single value.
+
+```{note}
+The definition of "value" can sometimes mean more than one number. For exmaple, is the spectral flux a sinlge value or should the value be a key that points to a new table that contains the spectra?
+```
+
+The five most common problems in data sets are:
+
+* Column headers are values, not variable names.
+* Multiple variables are stored in one column.
+* Variables are stored in both rows and columns.
+* Multiple types of observational units are stored in the same table.
+* A single observational unit is stored in multiple tables.
+
+
+### Example
+
+You may have a data set like this:
+
+|  | treatment_a | treatment_b |
+|--|-------------|-------------|
+|John Smith | NA | 2 |
+| Jane Doe  | 16 | 11 |
+| Mary Johnson | 3 | 1 |
+
+You can see that variables are stored in both rows and columns. Flipping the rows and columns don't make it any better. You can see that values (either numbers or stings) are in every cell, including the headers. 
+
+```{dropdown} What are the variables in the above table?
+1. person
+1. treatment
+1. result
+```
+
+```{dropdown} What does a tidy data version of this data look like?
+| name | treatment | result |
+|------|-----------|--------|
+| John Smith | a | NA |
+| John Smith | b | 2 |
+| Jane Doe | a | 16 |
+| Jane Doe | b | 11 |
+| Mary Johnson | a | 3 |
+| Mary Johnson | b | 1 |
+```
+
 
 ## Reading in data
+
+### pandas
+
+For the most part, you will use [`pandas.read_csv`](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html). 
+
+```python
+pd.read_csv('data.csv')
+```
+
+pandas also has readers and writers for Excel files, Python pickle objects, xml, latex, hdf5, sql, and more.
+
+### NumPy
+
+NumPy works well, but does not give you the tabular data specific resources that you can find in pandas.
+
+```python
+numpy.genfromtxt('data.csv', delimiter=',')
+```
+
+
+### Python
+
+Only do this if you need to read in text and not a data set, or for some reason you need to build your own parser. But please, do your best to not build your own parser.
+
+```python
+# Open the file in read mode
+file = open("geeks.txt", "r")
+# Read the entire content of the file
+content = file.read()
+# Print the content
+print(content)
+# Close the file
+file.close()
+```
 
 ## Suggested Reading
 
@@ -222,3 +308,5 @@ pandas has a great ["10 minutes to pandas"](https://pandas.pydata.org/pandas-doc
 * https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
 * https://www.w3schools.com/python/pandas/default.asp
 * https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb
+* https://tidyr.tidyverse.org/articles/tidy-data.html
+* https://vita.had.co.nz/papers/tidy-data.html
