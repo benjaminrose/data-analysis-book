@@ -14,9 +14,5 @@ This class covers a collection of content I taught myself over ten years. Since 
 
 <!-- ## Acknowledgments -->
 
-# Table of Contents
 
-```{tableofcontents}
-```
-
-<!-- [Copyright CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) -->
+[Copyright CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)

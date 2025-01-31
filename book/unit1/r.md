@@ -5,3 +5,8 @@ R is a common programing language for data analysis. About half of the books and
 R is not my strength, so here is an introduction video for you to watch.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yZ0bV2Afkjc?si=5KCWXUNp-NWF7EZz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## Suggested Reading
+
+* Haely, "Data Visualization: A Practical Introduction" (Chapter 2)

@@ -6,6 +6,7 @@ root: book/intro
 parts:
   - caption: Frontmatter
     chapters:
+    - file: book/frontmatter/toc
     - file: book/frontmatter/2025outline
   
   - caption: "Unit 1: Basic Programing"
@@ -15,6 +16,7 @@ parts:
     - file: book/unit1/stat_variables
     - file: book/unit1/linux
     - file: book/unit1/sci_python
+    - file: book/unit1/data_viz
     - file: book/unit1/r
   
   - cpation: "Homework 1"
