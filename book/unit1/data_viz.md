@@ -2,7 +2,7 @@
 
 ## General Ideas
 
-Read the first chapter of Haely. This is avaiable on canvas.
+Read the first chapter of Haely. This is available on canvas and from the [publisher](https://assets.press.princeton.edu/chapters/s13826.pdf).
 
 ## Matplotlib
 

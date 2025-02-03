@@ -22,6 +22,10 @@ html:
   # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
   use_issues_button: true
   use_repository_button: true
+  extra_footer: |
+      <div>
+          CC BY-NC 4.0 
+      </div>
 
 # Define the name of the latex output file for PDF builds
 latex:
