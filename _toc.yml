@@ -6,7 +6,7 @@ root: book/intro
 parts:
   - caption: Frontmatter
     chapters:
-    - file: book/frontmatter/toc
+    # - file: book/frontmatter/toc
     - file: book/frontmatter/2025outline
   
   - caption: "Unit 1: Basic Programing"

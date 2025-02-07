@@ -1,6 +1,6 @@
 # Homework 1
 
-1. Get data set "iris.data" at https://archive.ics.uci.edu/dataset/53/iris & read in the file. Report the name of each observable, its type.
+1. Get data set "iris.data" at https://archive.ics.uci.edu/dataset/53/iris & read in the file. Report the name of each observable, its statistical type.
 1. How many of each species exists?
 1. Assuming the petal is a rectangle, calculate the area of each petal. Save this value to the same object.
     1. Try this using both numpy and a pandas.

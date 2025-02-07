@@ -6,6 +6,9 @@ Read the first chapter of Haely. This is available on canvas and from the [publi
 
 ## Matplotlib
 
+https://matplotlib.org/stable/users/explain/quick_start.html
+
++ log scales
 
 ## ggplot
 
