@@ -7,9 +7,9 @@
 | Week 2   | [NumPy, SciPy, Pandas, & tidydata](../unit1/sci_python) | | 
 | Week 2   | Data visualization (matplotlib, R, gnuplot)   | Wilke 2, 5, 4 & 19, Healy Ch 1, 3, and maybe 4|
 | | **Unit 2** |
-| Week 3   | Error analysis: Statistical/Systematic  | Wall 3 (and maybe 2) & ??|
-| Week 4   | Fisher forecasting & Correlation testing | |
-| Week 5   | Hypothesis testing & Correlation functions  | Wall 4|
+| Week 4   | Hypothesis testing & Correlation functions  | Wall 4|
+| Week 5   | Error analysis: Statistical/Systematic  | Wall 3 (and maybe 2) & ??|
+| Week     | Fisher forecasting & Correlation testing | |
 | Week 6   | Dimensionality Reduction, SVD & PCA  | Wall 5 & ?? |
 | | **Unit 3** |
 | Week 7   | Frequentist vs Bayesian statistics  | VanderPlas, Wall 6, Gelman 2 |
