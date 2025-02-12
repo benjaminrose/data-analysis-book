@@ -27,7 +27,9 @@ parts:
   - caption: "Unit 2: Basic Statistic"
     numbered: True
     chapters:
-    - file: book/unit2/stats
+      - file: book/unit2/hypothosis
+      - file: book/unit2/pearson
+    # - file: book/unit2/stats
   #   - file: notebooks
   
   - cpation: "Homework 2"
