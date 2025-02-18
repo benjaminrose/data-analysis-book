@@ -5,22 +5,22 @@
 | | **Unit 1** |
 | Week 1   | [Python](../unit1/python) & Linux  | Downey, Vasiliev Ch 3 is limited, Healy 3.2| & ?? |
 | Week 2   | [NumPy, SciPy, Pandas, & tidydata](../unit1/sci_python) | | 
-| Week 2   | Data visualization (matplotlib, R, gnuplot)   | Wilke 2, 5, 4 & 19, Healy Ch 1, 3, and maybe 4|
+| Week 3   | Data visualization (matplotlib, R, gnuplot)   | Wilke 2, 5, 4 & 19, Healy Ch 1, 3, and maybe 4|
 | | **Unit 2** |
-| Week 4   |  Correlation functions  | Wall 4|
-| Week 5   | Error analysis: Statistical/Systematic & Fisher forecasting | Wall 3 (and maybe 2) & ??|
-| Week     | Correlation functions & Hypothesis testing | |
-| Week 6   | Dimensionality Reduction, SVD & PCA  | Wall 5 & ?? |
+| Week 4   | Correlation Testing  | Wall 4|
+| Week 5   | Statistical/Systematic Errors & Fisher forecasting | Wall 3.3  & ??|
+| Week 6   | Correlation functions & Hypothesis testing | ?? & Wall 5 |
+| Week 7   | Dimensionality Reduction, SVD & PCA  | Wall 4.5 |
 | | **Unit 3** |
-| Week 7   | Frequentist vs Bayesian statistics  | VanderPlas, Wall 6, Gelman 2 |
-| Week 8   | Model fitting, linear regression & MCMC (statsmodels & emcee)  | Wall 6.1 & 6.2, statsmodel docs, Kelly, emcce docs |
-| Week 9   | Model validation via simulations, bootstrap & Jackknife errors  | Wall 6.6, Gelman 8, maybe 16--19 |
-| Week 10  | Model selection   | Wall 7 |
+| Week 8   | Frequentist vs Bayesian statistics  | VanderPlas, Wall 6, Gelman 2 |
+| Week 9   | Model fitting, linear regression & MCMC (statsmodels & emcee)  | Wall 6.1 & 6.2, statsmodel docs, Kelly, emcce docs |
+| Week 10   | Model validation via simulations, bootstrap & Jackknife errors  | Wall 6.6, Gelman 8, maybe 16--19 |
+| Week 11  | Model selection   | Wall 7 |
 | | **Unit 4** |
-| Week 11  | BHM, multilevel regression, missing data (pymc)   | Kelly, Gelman 11-15, pymc docs |
-| Week 12  | Time Series data analysis, FFT  | Wall 9, Robinson |
-| Week 13  | Machine Learning: Unsupervised learning, neural networks, Gaussian Processes | ??, Vasiliev ch12|
-| Week 14  | 2pt correlation functions | Wall 10, ? |
+| Week 12  | BHM, multilevel regression, missing data (pymc)   | Kelly, Gelman 11-15, pymc docs |
+| Week 15  | 2pt correlation functions | Wall 10, ? |
+| Week 14  | Machine Learning: Unsupervised learning, neural networks, Gaussian Processes | ??, Vasiliev ch12|
+| Week 13  | Time Series data analysis, FFT  | Wall 9, Robinson |
 <!-- | Week 8   | Generalized linear regression & causal inference using regression    | Gelman 6, 7, 9, 10, A | -->
 
 https://www.astroml.org/astroML-notebooks/
