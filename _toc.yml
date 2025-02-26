@@ -31,9 +31,7 @@ parts:
       - file: book/unit2/pearson
       - file: book/unit2/fisher
       - file: book/unit2/autocorrelation
-      # - file: book/unit2/hypothosis
-    # - file: book/unit2/stats
-  #   - file: notebooks
+      - file: book/unit2/hypothesis
   
   - cpation: "Homework 2"
     numbered: False
