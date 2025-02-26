@@ -22,8 +22,8 @@ For different cases of $H_0$ and $H_1$, you are sometimes looking for
 
 | | $H_0$ is true | $H_1$ is true |
 |--|--------------|---------------|
-| p > alpha | A: Type I error | B: correct action |  
-| p <= alpha | C: correct action | D: Type II error |
+| p <= alpha| A: Type I error | B: correct action |  
+| p > alpha | C: correct action | D: Type II error |
 
 
 Sum of the columns are unity, but the sums of the rows are not constrained. 

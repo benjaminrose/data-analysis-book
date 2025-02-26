@@ -10,6 +10,8 @@ https://www.aps.org/apsnews/2023/10/rise-of-data-physicist
 
 This class covers a collection of content I taught myself over my graduate education and postdoctoral work. Since it covers a lot of content, there are reference at the end of each section for further, more detailed explanations. These are usually the tools I used to teach myself.
 
+(Goal is to ready for research. So the homework are closer to an advisor's request than a typical textbook homework problem. They are less specific, more open ended, and focusing conveying an answer to other than most Physics and Astronomy homework problems.)
+
 ## How to use this book
 
 ## Why not other books
