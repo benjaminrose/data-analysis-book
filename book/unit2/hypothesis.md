@@ -48,12 +48,47 @@ For two samples, A (with m members) and B (with n members); the null hypothesis 
 1. that B is stochastically larger than A
 1. That A and Be differ in some other way, perhaps in spread or skewness.
 
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mannwhitneyu.html#r31b0b1c0fec3-4
 
-## Kolmogorov-Smirnov test
+```python
+from scipy.stats import mannwhitneyu
+
+males = [19, 22, 16, 29, 24]
+females = [20, 11, 17, 12]
+
+U1, p = mannwhitneyu(males, females, method="exact")
+print(p)
+
+res = mannwhitneyu(females, males, alternative="less", method="exact")
+print(res)
+```
+
+## Kolmogorov-Smirnov (KS) test
+
+This test compares the underlying continuous distributions F(x) and G(x) of two independent samples. 
+
+* The test is distribution-free, under a continuity assumption for the univariate population/model distribution, giving valid probabilities for any underlying distribution of the original and comparison dataset.  This is particularly valuable for astronomy, as we usually do not know the mathematical distribution of observed properties of planets, stars, galaxies, and so forth.
+* It can be universally applied without restriction to any scientific problem.  For example, there is no restriction on the size of the sample,
+* Critical values of probabilities are widely available, with asymptotic formulae for large samples (roughly n > 30) and tabulated values for small samples.
+* The one-sample KS test can serve as a goodness-of-fit test following regression or other procedure.  This is critically important in scientific inference as a link between astronomical data and astrophysical theory.
+* The statistic is easy to compute, readily understood graphically, and familiar to nearly all scientists.
+
+(Features of the KS-test taken from https://asaip.psu.edu/Articles/beware-the-kolmogorov-smirnov-test/)
+
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ks_2samp.html#scipy.stats.ks_2samp
 
 ## Anderson-Darling test
+
+> The KS test is most sensitive when the EDFs [empirical distribution functions] differ in a global fashion near the center of the distribution.  But if there are repeated deviations between the EDFs, or the EDFs have (or are adjusted to have) the same mean values, then the EDFs cross each other multiple times and the maximum deviation between the distributions is reduced.
+(https://asaip.psu.edu/Articles/beware-the-kolmogorov-smirnov-test/)
+
+The Anderson-Darling test improves on these shortcomings.
+
+
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.anderson_ksamp.html#scipy.stats.anderson_ksamp
 
 ## Further Reading
 
 * Wall & Jenkins Chapter 5
 * https://asaip.psu.edu/Articles/beware-the-kolmogorov-smirnov-test/
+* Robinson 2016 section 4.7

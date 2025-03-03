@@ -32,6 +32,7 @@ parts:
       - file: book/unit2/fisher
       - file: book/unit2/autocorrelation
       - file: book/unit2/hypothesis
+      - file: book/unit2/pca
   
   - cpation: "Homework 2"
     numbered: False
