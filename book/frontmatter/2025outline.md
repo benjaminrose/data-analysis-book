@@ -9,8 +9,8 @@
 | | **Unit 2** |
 | Week 4   | Correlation Testing  | Wall 4|
 | Week 5   | Statistical/Systematic Errors & Fisher forecasting | Wall 3.3  & ??|
-| Week 6   | Correlation functions & Hypothesis testing | ?? & Wall 5 |
-| Week 7   | Dimensionality Reduction, SVD & PCA  | Wall 4.5 |
+| Week 6   | Autocorrelation & Hypothesis testing | ?? & Wall 5 |
+| Week 7   | Covariance & Dimensionality Reduction, SVD & PCA  | Wall 4.5 |
 | | **Unit 3** |
 | Week 8   | Frequentist vs Bayesian statistics  | VanderPlas, Wall 6, Gelman 2 |
 | Week 9   | Model fitting, linear regression & MCMC (statsmodels & emcee)  | Wall 6.1 & 6.2, statsmodel docs, Kelly, emcce docs |

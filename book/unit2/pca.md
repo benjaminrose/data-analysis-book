@@ -8,14 +8,16 @@ The theory of PCA just the theory of rotation in linear algebra. When I understo
 
 ![Principle Components from https://www.geeksforgeeks.org/principal-component-analysis-pca/](img/Principal-Componenent-Analysisi.webp)
 
-Method:
+### Cover Robinson 4.6.
+
+Covariance & PCA
+
+### Method:
 
 1. Standardize data
 1. Find correlations
 1. Find principal components
 1. Transform Data
-
-Cover Robinson 4.6.
 
 ### Advantages and Disadvantages of Principal Component Analysis
 
@@ -142,7 +144,7 @@ or
 ```python
 from sklearn.decomposition import PCA
 
-pca = PCA(n_components=2)
+pca = PCA(n_components=2)  # Can be any size
 pca.fit(Z)  # still need to scale data.
 x_pca = pca.transform(Z)
 
@@ -178,9 +180,13 @@ Not this year.
 The main issue with PCA in science is that it does not account for uncertainties in the measurements. 
 
 
+Also, PCA is inherently linear. With infinitely many PCA features you can shift a spectral line, or you can do a non-linear dimensionality reduction and represent a spectral line shift by a single parameter.
+
+
 ## Further Reading
 
 * Robinson 2016 section 4.6
 * https://www.geeksforgeeks.org/principal-component-analysis-pca/
 * https://en.wikipedia.org/wiki/Principal_component_analysis
 * https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+* https://stats.stackexchange.com/questions/346692/how-does-eigenvalues-measure-variance-along-the-principal-components-in-pca
