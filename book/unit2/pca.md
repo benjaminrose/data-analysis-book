@@ -177,11 +177,56 @@ Not this year.
 
 (Friday)
 
+PCA benefits and draw backs: 
+
+**Pros:**
+1. Dimensionality Reduction: PCA effectively reduces the number of features, which is beneficial for models that suffer from the curse of dimensionality.
+2. Feature Independence: Principal components are orthogonal (uncorrelated), meaning they capture independent information, simplifying the interpretation of the reduced features.
+3. Noise Reduction: PCA can help reduce noise by focusing on the components that explain the most significant variance in the data.
+4. Visualization: The reduced-dimensional data can be visualized, aiding in understanding the underlying structure and patterns.
+
+**Cons:**
+1. Loss of Interpretability: Interpretability of the original features may be lost in the transformed space, as principal components are linear combinations of the original features.
+2. Assumption of Linearity: PCA assumes that the relationships between variables are linear, which may not be true in all cases.
+3. Sensitive to Scaling: PCA is sensitive to the scale of the features, so standardization is often required.
+4. Outliers Impact Results: Outliers can significantly impact the results of PCA, as it focuses on capturing the maximum variance, which may be influenced by extreme values.
+
+
+When to Use:
+1. High-Dimensional Data:
+PCA is particularly useful when dealing with datasets with a large number of features to mitigate the curse of dimensionality.
+2. Collinear Features:
+When features are highly correlated, PCA can be effective in capturing the shared information and representing it with fewer components.
+3. Visualization:
+PCA is beneficial when visualizing high-dimensional data is challenging. It projects data into a lower-dimensional space that can be easily visualized.
+5. Linear Relationships:
+When the relationships between variables are mostly linear, PCA is a suitable technique.
+
+* https://elitedatascience.com/dimensionality-reduction-algorithms
+https://medium.com/nerd-for-tech/dimensionality-reduction-techniques-pca-lca-and-svd-f2a56b097f7c
+* https://medium.com/nerd-for-tech/dimensionality-reduction-techniques-pca-lca-and-svd-f2a56b097f7c
+
+```{note}
+For science the two main issues of PCA are the lack of propagating uncertainties and the inherent linear assumptions.
+```
+
+### Incorporating Uncertainties
+
 The main issue with PCA in science is that it does not account for uncertainties in the measurements. 
 
+* https://iopscience.iop.org/article/10.3847/1538-4357/aaec7e/pdf
+    * SNEMO uses Expectation Maximization Factor Analysis (EMFA)
+* https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.FactorAnalysis.html
+
+
+
+### Doing nonlinear dimensionality reduction
 
 Also, PCA is inherently linear. With infinitely many PCA features you can shift a spectral line, or you can do a non-linear dimensionality reduction and represent a spectral line shift by a single parameter.
 
+* https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction
+* https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.KernelPCA.html#sklearn.decomposition.KernelPCA
+* https://scikit-learn.org/stable/auto_examples/decomposition/plot_kernel_pca.html
 
 ## Further Reading
 
@@ -190,3 +235,4 @@ Also, PCA is inherently linear. With infinitely many PCA features you can shift 
 * https://en.wikipedia.org/wiki/Principal_component_analysis
 * https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
 * https://stats.stackexchange.com/questions/346692/how-does-eigenvalues-measure-variance-along-the-principal-components-in-pca
+* https://arxiv.org/pdf/2101.00734
