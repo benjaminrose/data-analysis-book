@@ -92,3 +92,4 @@ https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.anderson_ksamp.
 * Wall & Jenkins Chapter 5
 * https://asaip.psu.edu/Articles/beware-the-kolmogorov-smirnov-test/
 * Robinson 2016 section 4.7
+* https://towardsdatascience.com/one-tailed-vs-two-tailed-tests/

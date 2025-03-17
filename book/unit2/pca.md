@@ -6,7 +6,7 @@
 
 The theory of PCA just the theory of rotation in linear algebra. When I understood PCA, I finally understood Quantum Mechanics.
 
-![Principle Components from https://www.geeksforgeeks.org/principal-component-analysis-pca/](img/Principal-Componenent-Analysisi.webp)
+![Principle Components from https://www.geeksforgeeks.org/principal-component-analysis-pca/](img/Principal-Componenent-Analysisi.png)
 
 ### Cover Robinson 4.6.
 

@@ -33,6 +33,7 @@ parts:
       - file: book/unit2/autocorrelation
       - file: book/unit2/hypothesis
       - file: book/unit2/pca
+      # - file: book/unit2/stats   #why not this?
   
   - cpation: "Homework 2"
     numbered: False
@@ -40,10 +41,10 @@ parts:
     - file: book/unit2/hw2
     - file: book/unit2/hw3
 
-  # - caption: "Unit 3: Model Fitting"
-  #   numbers: True
-  #   chapters:
-    # - file: markdown-notebooks
+  - caption: "Unit 3: Model Fitting"
+    numbers: True
+    chapters:
+    - file: book/unit3/frequentist-v-bayesian
     
   # - caption: "Unit 4: Practical Examples"
   #   numbers: True
