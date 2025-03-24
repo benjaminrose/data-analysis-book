@@ -35,6 +35,7 @@ Two forms: if null hypothesis is m=1 or m=0
 https://www.statsmodels.org/stable/examples/notebooks/generated/ols.html
 
 - looks at delta-y. NOT perpendicular to slope. 
+    - See example on p.137 (figure 6.2) of Wall
 
 ## Orthogonal Distance Regression (ODR)
 
