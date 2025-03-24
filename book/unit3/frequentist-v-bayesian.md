@@ -30,11 +30,14 @@ Here I inject my own oppinion. For science, trust your data! You have measured i
 
 ["Frequentism and Bayesianism: A Python-driven Primer"](https://ui.adsabs.harvard.edu/abs/2014arXiv1411.5018V/abstract)
 
+We specifically covered Nuisance Parameters and the difference between Confidence Intervals vs Credible Regions.
+
 
 ## Further Reading
 
 * https://ui.adsabs.harvard.edu/abs/2014arXiv1411.5018V/abstract
 * https://towardsdatascience.com/one-tailed-vs-two-tailed-tests/
+* https://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/
 
 
 [^footnote]: We will be using new [probability notation](https://en.wikipedia.org/wiki/Notation_in_probability_and_statistics), specifically conditional probability.

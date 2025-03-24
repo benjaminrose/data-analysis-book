@@ -12,7 +12,7 @@
 | Week 6   | Autocorrelation & Hypothesis testing | ?? & Wall 5 |
 | Week 7   | Covariance & Dimensionality Reduction, SVD & PCA  | Wall 4.5 |
 | | **Unit 3** |
-| Week 8   | Frequentist vs Bayesian statistics  | VanderPlas, Wall 6, Gelman 2 |
+| Week 8   | Frequentist vs Bayesian statistics  | VanderPlas, Wall 6 |
 | Week 9   | Model fitting, linear regression & MCMC (statsmodels & emcee)  | Wall 6.1 & 6.2, statsmodel docs, Kelly, emcce docs |
 | Week 10   | Model validation via simulations, bootstrap & Jackknife errors  | Wall 6.6, Gelman 8, maybe 16--19 |
 | Week 11  | Model selection   | Wall 7 |

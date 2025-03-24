@@ -19,7 +19,7 @@ parts:
     - file: book/unit1/data_viz
     - file: book/unit1/r
   
-  - cpation: "Homework 1"
+  - cpation: "Homework Unit 1"
     numbered: False
     chapters:
     - file: book/unit1/hw1
@@ -35,7 +35,7 @@ parts:
       - file: book/unit2/pca
       # - file: book/unit2/stats   #why not this?
   
-  - cpation: "Homework 2"
+  - cpation: "Homework Unit 2"
     numbered: False
     chapters:
     - file: book/unit2/hw2
@@ -45,6 +45,13 @@ parts:
     numbers: True
     chapters:
     - file: book/unit3/frequentist-v-bayesian
+    - file: book/unit3/linear_regression
+    - file: book/unit3/chi_square_ml_emcee
+  
+  - cpation: "Homework Unit 3"
+    numbered: False
+    chapters:
+    - file: book/unit3/hw4
     
   # - caption: "Unit 4: Practical Examples"
   #   numbers: True
