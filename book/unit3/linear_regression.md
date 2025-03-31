@@ -30,14 +30,18 @@ You can use the weights in `polyfit`, but you likely want to do a [$\chi^2$ anna
 
 ## Ordinary Least Squares (OLS)
 
-Two forms: if null hypothesis is m=1 or m=0
+
+- multiple independent parameters.
 
 https://www.statsmodels.org/stable/examples/notebooks/generated/ols.html
 
+- assumes null hypothesis of m=0
 - looks at delta-y. NOT perpendicular to slope. 
     - See example on p.137 (figure 6.2) of Wall
 
 ## Orthogonal Distance Regression (ODR)
+
+What if null hypothesis is m=1?
 
 ![Description of different distances used in OLS (y-axis), and ODR (perpendicular to slope) ](https://media.geeksforgeeks.org/wp-content/uploads/20211219223720/19121.png)
 

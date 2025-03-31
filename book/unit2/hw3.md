@@ -1,5 +1,7 @@
 # Homework 3
 
+<!-- This homework should be looked at. It took longer then expected and the students were not confident in their work. -->
+
 Use the [New York City Yellow Taxi Records data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page?ref=hackernoon.com) for January 2024. The specific file is also available at [yellow_tripdata_2024-01.parquet](./data/yellow_tripdata_2024-01.parquet). I recommend using the `pandas.read_parquet` function, but there are other tools to read parquet files. 
 
 1. Are there any outliers you need to remove? 
