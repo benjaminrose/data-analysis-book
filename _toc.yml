@@ -47,6 +47,7 @@ parts:
     - file: book/unit3/frequentist-v-bayesian
     - file: book/unit3/linear_regression
     - file: book/unit3/chi_square_ml_emcee
+    - file: book/unit3/resampling
   
   - cpation: "Homework Unit 3"
     numbered: False
