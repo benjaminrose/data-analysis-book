@@ -18,6 +18,9 @@
 
 https://emcee.readthedocs.io/en/stable/tutorials/line/
 
+But include how a uniform distribution in slope is not uninformed, https://jakevdp.github.io/blog/2014/06/14/frequentism-and-bayesianism-4-bayesian-in-python/. 
+
 ## Further Reading
 
+* https://jakevdp.github.io/blog/2014/06/14/frequentism-and-bayesianism-4-bayesian-in-python/
 * https://emcee.readthedocs.io/en/stable/tutorials/line/
