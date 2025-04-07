@@ -6,7 +6,7 @@ root: book/intro
 parts:
   - caption: Frontmatter
     chapters:
-    # - file: book/frontmatter/toc
+    # - file: frontmatter/toc
     - file: book/frontmatter/2025outline
   
   - caption: "Unit 1: Basic Programing"
@@ -24,12 +24,12 @@ parts:
     chapters:
     - file: book/unit1/hw1
 
-  - caption: "Unit 2: Basic Statistic"
+  - caption: "Unit 2: Basic Statistics"
     numbered: True
     chapters:
       - file: book/unit2/correlation_testing
       - file: book/unit2/pearson
-      - file: book/unit2/fisher
+      - file: book/unit2/fisher    # move to start of Unit 3
       - file: book/unit2/autocorrelation
       - file: book/unit2/hypothesis
       - file: book/unit2/pca
@@ -47,7 +47,9 @@ parts:
     - file: book/unit3/frequentist-v-bayesian
     - file: book/unit3/linear_regression
     - file: book/unit3/chi_square_ml_emcee
-    - file: book/unit3/resampling
+    - file: book/unit3/resampling    # move to unit 2?
+    - file: book/unit3/goodness_of_fit
+    - file: book/unit3/aic_bic
   
   - cpation: "Homework Unit 3"
     numbered: False
