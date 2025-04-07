@@ -12,28 +12,37 @@ The $\chi^2$ should be approximately the number of observations.
 
 Example ...
 
-<!-- import numpy as np
-from scipy import optimize
+```python
+import numpy as np
+from scipy.optimize import minimize
 
-# Define the function to minimize
-def chi_square(C1, C2):
-    # Calculate the model using the input values of C1 and C2
-    model = f(C1, C2, time_input)
+def model1(params, obs):
+    b, m = params
+    return b + obs*m
     
-    # Calculate the chi-squared value
-    chi_square = np.sum(((y - model)/yerr)**2)
+def model2(params, obs):
+    a, b = params
+    return a + obs**b
     
-    # Return the chi-squared value
-    return chi_square
+def chi(params, x, y, yerr, model):
+    return np.sum((y - model(params, x))**2/(yerr)**2)
 
-# Set the initial guess values for C1 and C2
-x0 = [0.002, 0.003]
 
-# Use the fmin function to find the minimum of the chi-square function
-result = optimize.minimize(chi_square, x0=x0)
+N = 50
+x = np.sort(20 * np.random.rand(N))
+yerr = 0.1 + 0.5 * np.random.rand(N)
 
-# The result will be an array containing the values of C1 and C2 that minimize the chi-square function
-print(result) -->
+a, b = 5, 1.3
+y_true = model2((a, b), x)
+y = yerr * np.random.randn(N) + y_true
+
+
+
+res1 = minimize(chi, (2,7), args=(x, y, yerr, model1))
+res2 = minimize(chi, (2,7), args=(x, y, yerr, model2))
+breakpoint()
+```
+
 
 
 
