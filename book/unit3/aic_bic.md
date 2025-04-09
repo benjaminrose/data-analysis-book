@@ -4,12 +4,14 @@
 
 Akaike information criterion (AIC) & Bayesian Information Criterion (BIC) are two ways to compare models of varying complexity. Their definitions are 
 ```{math}
-AIC = -2 * log(L) + 2 * k\\
-BIC = -2 * log(L) + k * log(n)
+AIC = -2 * ln(L) + 2 * k\\
+BIC = -2 * ln(L) + k * ln(n)
 ```
-Where $L$ is the maximized likelihood, $k$ is the number of parameters in the model, and $n$ is the sample size. BIC prefers simpler models, especially for large data sets (where $log(n) > 2$) since it has a $log(n)$ cost to more complicated models.
+Where $L$ is the maximized {term}likelihood, $k$ is the number of parameters in the model, and $n$ is the sample size. BIC prefers simpler models, especially for large data sets (where $ln(n) > 2$) since it has a $ln(n)$ cost to more complicated models.
 
-### `statmodles` example
+The "best" model is the one with the lowest AIC/BIC (improved fit that is more than the added cost from the model complexity). But sometimes the AIC and BIC disagree on the "best" model. At this point, you will need to use some logic and try to understand the models.
+
+### {term}`statmodles` example
 
 ```python
 import numpy as np
