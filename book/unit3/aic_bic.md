@@ -7,11 +7,16 @@ Akaike information criterion (AIC) & Bayesian Information Criterion (BIC) are tw
 AIC = -2 * ln(L) + 2 * k\\
 BIC = -2 * ln(L) + k * ln(n)
 ```
-Where $L$ is the maximized {term}likelihood, $k$ is the number of parameters in the model, and $n$ is the sample size. BIC prefers simpler models, especially for large data sets (where $ln(n) > 2$) since it has a $ln(n)$ cost to more complicated models.
+Where $L$ is the maximized `likelihood`, $k$ is the number of parameters in the model, and $n$ is the sample size. BIC prefers simpler models, especially for large data sets (where $ln(n) > 2$) since it has a $ln(n)$ cost to more complicated models.
 
 The "best" model is the one with the lowest AIC/BIC (improved fit that is more than the added cost from the model complexity). But sometimes the AIC and BIC disagree on the "best" model. At this point, you will need to use some logic and try to understand the models.
 
-### {term}`statmodles` example
+AIC is generally preferred when prediction accuracy is the primary goal, and you are willing to accept a slightly more complex model to achieve this.
+BIC is often used in situations where the sample size is large, and model simplicity is important, such as when the goal is interpretability.
+
+```{index} statsmodels
+```
+### `statsmodels` example
 
 ```python
 import numpy as np
@@ -71,3 +76,4 @@ print(qubic_res.summary())
 * (The introduction of BIC) https://sites.stat.washington.edu/courses/stat527/s13/readings/ann_stat1978.pdf
 * https://www.statsmodels.org/stable/examples/notebooks/generated/wls.html
 * https://www.statsmodels.org/stable/examples/notebooks/generated/ordinal_regression.html#Using-formulas---treatment-of-endog
+

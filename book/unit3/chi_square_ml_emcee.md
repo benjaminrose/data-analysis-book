@@ -3,6 +3,8 @@
 <!-- ? https://www.statsmodels.org/stable/examples/notebooks/generated/gls.html -->
 
 
+```{index} scipy.optimize
+```
 ## $\chi^2$ & Maximum Likelihood
 
 `scipy.optimize.curve_fit`
@@ -14,6 +16,8 @@
 - Many numerical methods
 
 
+```{index} emcee
+```
 ## Emcee
 
 https://emcee.readthedocs.io/en/stable/tutorials/line/

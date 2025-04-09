@@ -8,6 +8,8 @@ Resampling is a way to create "new" samples from existing data. that are represe
 
 Two popular tools are the bootstrap and jackknife. Although they have many similarities, they do have a few notable differences.
 
+```{index} scipy.stats
+```
 ## Bootstrap
 
 Bootstrap uses sampling with replacement in order to estimate to distribution for the desired target variable.

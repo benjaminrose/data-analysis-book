@@ -19,7 +19,7 @@ parts:
     - file: book/unit1/data_viz
     - file: book/unit1/r
   
-  - cpation: "Homework Unit 1"
+  - caption: "Homework Unit 1"
     numbered: False
     chapters:
     - file: book/unit1/hw1
@@ -35,14 +35,14 @@ parts:
       - file: book/unit2/pca
       # - file: book/unit2/stats   #why not this?
   
-  - cpation: "Homework Unit 2"
+  - caption: "Homework Unit 2"
     numbered: False
     chapters:
     - file: book/unit2/hw2
     - file: book/unit2/hw3
 
   - caption: "Unit 3: Model Fitting"
-    numbers: True
+    numbered: True
     chapters:
     - file: book/unit3/frequentist-v-bayesian
     - file: book/unit3/linear_regression
@@ -51,7 +51,7 @@ parts:
     - file: book/unit3/goodness_of_fit
     - file: book/unit3/aic_bic
   
-  - cpation: "Homework Unit 3"
+  - caption: "Homework Unit 3"
     numbered: False
     chapters:
     - file: book/unit3/hw4
@@ -62,3 +62,9 @@ parts:
   #   - file: markdown
   #   - file: notebooks
   #   - file: markdown-notebooks
+  
+  - caption: "References"
+    numbered: False
+    chapters:
+    - file: book/bibliography
+    - file: genindex

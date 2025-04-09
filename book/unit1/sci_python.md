@@ -2,6 +2,8 @@
 
 Python has two large communities: web development and scientific computing. Each group has a few core packages that they add on top of base python. In this section, we will 
 
+```{index} NumPy
+```
 ## NumPy
 
 The first package we will add to python is [NumPy](https://numpy.org/doc/stable/). To [install `numpy`](https://numpy.org/install/), type `conda install numpy` or `pip install numpy` depending on what package manager you are using. 
@@ -131,6 +133,8 @@ rng.standard_normal(size=(5,1))
 What if I need to get the same random number the next time I run my code? Use a seed when setting up your random generator `rng = np.random.default_rng(12345)`.
 ```
 
+```{index} SciPy
+```
 ## SciPy
 
 SciPy has a lot of useful features. We will predominately use it `optimize` and `stats` modules. However, you may need its Fourier transforms, numerical integration methods, interpolations, Linear Algebra, image processing, and signal processing modules.
@@ -168,6 +172,16 @@ res = minimize(fun, (2, 0), method='SLSQP', bounds=bnds, constraints=cons)
 res.x
 ```
 
+```{index} statsmodels
+```
+```{index} pandas
+```
+```{index} PyMC
+```
+```{index} scikit-learn
+```
+```{index} Seaborn
+```
 ### scipy.stats
 
 From the SciPy documentation:
@@ -182,6 +196,8 @@ From the SciPy documentation:
 > * scikit-learn: classification, regression, model selection.
 > * Seaborn: statistical data visualization.
 > * rpy2: Python to R bridge.
+
+
 
 We will be covering all of these other packages later in the semester.
 
@@ -198,7 +214,8 @@ from scipy.stats import lognormal, skew
 
 ```
 
-
+```{index} pandas
+```
 ## pandas
 
 pandas is a package for working with tabular data. Above we asked if NumPy 2D arrays were (row, column) vs (column, row). For tabular data specifically, it should be assign the axes to observations and variables.
