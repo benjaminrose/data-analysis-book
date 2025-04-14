@@ -12,6 +12,8 @@ res
 
 Check out the object res. Use dir(res) and help to figure it out.
 
+```{index} p-value
+```
 ### p-values
 
 A lot of statistics uses [p-values](https://en.wikipedia.org/wiki/P-value) rather than $\sigma$ when measuring significance. A p-value is the probability that the observation came from the null hypothesis (for Pearson this is no correlation). A very small p-value means that such an extreme observed outcome would be very unlikely under the null hypothesis. 
@@ -20,7 +22,10 @@ P-values can be converted to $\sigma$ by using the area under a Gaussian curve. 
 
 
 
-
+```{index} scipy.stats
+```
+```{index} Pearson correlation
+```
 ### More `pearsonr` examples
 
 For smaller samples, the perturbation test can lead to a more accurate estimate of the p-value 
@@ -60,7 +65,10 @@ Can even build this interval via bootstrap—to be defined lated in the class.
 
 
 
-
+```{index} scipy.stats
+```
+```{index} Spearman rank correlation
+```
 ## Spearman's rank correlation coefficient
 
 ```python

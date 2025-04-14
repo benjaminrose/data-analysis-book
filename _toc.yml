@@ -50,6 +50,8 @@ parts:
     - file: book/unit3/resampling    # move to unit 2?
     - file: book/unit3/goodness_of_fit
     - file: book/unit3/aic_bic
+    - file: book/unit3/emcee
+    - file: book/unit3/BHM_tutorial
   
   - caption: "Homework Unit 3"
     numbered: False

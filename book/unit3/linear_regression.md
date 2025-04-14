@@ -10,6 +10,8 @@ y = np.array([6.52, 6.54, 5.82, 4.52, 7.55, 6.54 , 7.03, 4.97, 5.22, 6.47])
 ```
 
 
+```{index} scipy.stats
+```
 # Linear Regression
 
 ```python
@@ -28,6 +30,10 @@ https://numpy.org/doc/stable/reference/generated/numpy.polynomial.polynomial.pol
 You can use the weights in `polyfit`, but you likely want to do a [$\chi^2$ annalyis](chi_square_ml_emcee). Also notice that the weights are `w[i] = 1/sigma_y[i]`.
 ```
 
+```{index} statsmodels
+```
+```{index} Ordinary Least Squares (OLS)
+```
 ## Ordinary Least Squares (OLS)
 
 
@@ -39,6 +45,11 @@ https://www.statsmodels.org/stable/examples/notebooks/generated/ols.html
 - looks at delta-y. NOT perpendicular to slope. 
     - See example on p.137 (figure 6.2) of Wall
 
+
+```{index} SciPy
+```
+```{index} Orthogonal Distance Regression (ODR)
+```
 ## Orthogonal Distance Regression (ODR)
 
 What if null hypothesis is m=1?

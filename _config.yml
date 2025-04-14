@@ -41,3 +41,6 @@ repository:
   url: https://github.com/benjaminrose/data-analysis-book
   path_to_book: book
   branch: main
+
+launch_buttons:
+  binderhub_url: "https://mybinder.org"  # The URL for your BinderHub (e.g., https://mybinder.org)

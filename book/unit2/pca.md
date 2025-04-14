@@ -43,6 +43,8 @@ Disadvantages
 
 ### Dimensional Reduction
 
+```{index} scikit-learn
+```
 ### PCA in Python
 
 (Wednesday)

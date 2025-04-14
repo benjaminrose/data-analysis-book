@@ -41,6 +41,10 @@ Student's $t$ and the $F$ test are analytical tests that assume the data is draw
 With computers and the reduced need for analytical solutions we shift towards non-parametric tests that allow us to test that do not depend on properties of the population(s) from which the data were drawn.
 
 
+```{index} scipy.stats
+```
+```{index} Mann-Whitney U
+```
 ## Wilcoxon-Mann-Whitney U test
 
 For two samples, A (with m members) and B (with n members); the null hypothesis is that A and B are from the same distribution, or have the same parent populations. While the alternative is:
@@ -63,6 +67,10 @@ res = mannwhitneyu(females, males, alternative="less", method="exact")
 print(res)
 ```
 
+```{index} scipy.stats
+```
+```{index} Kolmogorov-Smirnov
+```
 ## Kolmogorov-Smirnov (KS) test
 
 This test compares the underlying continuous distributions F(x) and G(x) of two independent samples. 
@@ -77,6 +85,10 @@ This test compares the underlying continuous distributions F(x) and G(x) of two 
 
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ks_2samp.html#scipy.stats.ks_2samp
 
+```{index} scipy.stats
+```
+```{index} Anderson-Darling
+```
 ## Anderson-Darling test
 
 > The KS test is most sensitive when the EDFs [empirical distribution functions] differ in a global fashion near the center of the distribution.  But if there are repeated deviations between the EDFs, or the EDFs have (or are adjusted to have) the same mean values, then the EDFs cross each other multiple times and the maximum deviation between the distributions is reduced.
