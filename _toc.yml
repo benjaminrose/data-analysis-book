@@ -57,6 +57,7 @@ parts:
     numbered: False
     chapters:
     - file: book/unit3/hw4
+    - file: book/unit3/hw5
     
   - caption: "Unit 4: Practical Examples"
     numbers: True

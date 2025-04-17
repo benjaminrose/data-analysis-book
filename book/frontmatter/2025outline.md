@@ -20,7 +20,7 @@
 | Week 12  | BHM, multilevel regression, missing data (pymc)   | Kelly, Gelman 11-15, pymc docs |
 | Week 15  | 2pt correlation functions | Wall 10, ? |
 | Week 14  | Machine Learning: Unsupervised learning, neural networks, Gaussian Processes | ??, Vasiliev ch12|
-| Week 13  | Time Series data analysis, FFT  | Wall 9, Robinson |
+| Week 13  | Time Series data analysis, FFT  | Wall 9, Robinson, Vasiliev ch 10 |
 <!-- | Week 8   | Generalized linear regression & causal inference using regression    | Gelman 6, 7, 9, 10, A | -->
 
 https://www.astroml.org/astroML-notebooks/
