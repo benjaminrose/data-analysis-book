@@ -61,10 +61,7 @@ parts:
   - caption: "Unit 4: Practical Examples"
     numbers: True
     chapters:
-      - file: book/unit4/neuroal_network
-  #   - file: markdown
-  #   - file: notebooks
-  #   - file: markdown-notebooks
+      - file: book/unit4/neural_network
   
   - caption: "References"
     numbered: False
