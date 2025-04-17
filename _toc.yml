@@ -51,16 +51,17 @@ parts:
     - file: book/unit3/goodness_of_fit
     - file: book/unit3/aic_bic
     - file: book/unit3/emcee
-    - file: book/unit3/BHM_tutorial
+    - file: book/unit3/BHM
   
   - caption: "Homework Unit 3"
     numbered: False
     chapters:
     - file: book/unit3/hw4
     
-  # - caption: "Unit 4: Practical Examples"
-  #   numbers: True
-  #   chapters:
+  - caption: "Unit 4: Practical Examples"
+    numbers: True
+    chapters:
+      - file: book/unit4/neuroal_network
   #   - file: markdown
   #   - file: notebooks
   #   - file: markdown-notebooks

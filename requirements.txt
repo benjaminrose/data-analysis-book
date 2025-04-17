@@ -1,3 +1,8 @@
 jupyter-book
 matplotlib
 numpy
+emcee
+arviz
+pymc
+watermark
+seaborn

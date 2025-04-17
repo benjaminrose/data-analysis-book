@@ -1,5 +1,7 @@
 # Dimensionality Reduction (PCA)
 
+```{index} PCA
+```
 ## Principal component analysis (PCA)
 
 (Monday)
