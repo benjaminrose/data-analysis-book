@@ -52,6 +52,7 @@ parts:
     - file: book/unit3/aic_bic
     - file: book/unit3/emcee
     - file: book/unit3/BHM
+    - file: book/unit3/bayesian_model_compare
   
   - caption: "Homework Unit 3"
     numbered: False
@@ -59,8 +60,8 @@ parts:
     - file: book/unit3/hw4
     - file: book/unit3/hw5
     
-  - caption: "Unit 4: Practical Examples"
-    numbers: True
+  - caption: "Unit 4: Advanced Topics"
+    numbered: True
     chapters:
       - file: book/unit4/neural_network
   
