@@ -63,6 +63,7 @@ parts:
   - caption: "Unit 4: Advanced Topics"
     numbered: True
     chapters:
+      - file: book/unit4/scikit_learn
       - file: book/unit4/neural_network
   
   - caption: "References"
