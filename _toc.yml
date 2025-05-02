@@ -65,6 +65,7 @@ parts:
     chapters:
       - file: book/unit4/scikit_learn
       - file: book/unit4/neural_network
+      - file: book/unit4/deep_learning
   
   - caption: "References"
     numbered: False
