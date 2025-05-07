@@ -1,7 +1,7 @@
-# Quantitative Insights: From Data to Discovery 
+# Computational Insights: From Data to Discovery 
 
 
-![Quantitative Insights](data_analysis.001.notitle.png)
+![Computational Insights](data_analysis.001.notitle.png)
 
 By Ben Rose.
 

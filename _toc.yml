@@ -66,6 +66,8 @@ parts:
       - file: book/unit4/scikit_learn
       - file: book/unit4/neural_network
       - file: book/unit4/deep_learning
+      - file: book/unit4/two_point
+      - file: book/unit4/clustering
   
   - caption: "References"
     numbered: False

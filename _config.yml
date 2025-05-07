@@ -1,11 +1,11 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: "Quantitative Insights: From Data to Discovery"
+title: "Computational Insights: From Data to Discovery"
 author: Benjamin Rose
 email: Ben_Rose@baylor.edu
 copyright: 2024-2025
-logo: book/data_analysis.001.png
+logo: book/data_analysis.001.notitle.png
 exclude_patters: [README.md, LICENSE.txt, makefile]
 
 
@@ -30,7 +30,7 @@ html:
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
-    targetname: QuantitativeInsights.tex
+    targetname: ComputationalInsights.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
